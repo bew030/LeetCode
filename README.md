@@ -37,6 +37,23 @@ Ex Table:
       </td>
     </tr>
     
+    <tr>
+      <td>232</td>
+      <td><a href="https://leetcode.com/problems/implement-queue-using-stacks/" target="_blank"> Implement Qeueue using Stacks </a></td>
+      <td> Stacks, Queues </td>
+      <td>        
+        <ul>
+          <li><a href = 'https://github.com/bew030/LeetCode/blob/main/Python/232-queuewstacks-stackqueue.py'>Python</a></li>
+          <li><a>Java</a></li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li> TL;DR: Use two stacks to implement the FIFO concept. Empty current queue into storage queue, add new item, and then pop the storage queue back into the current queue. That way the first item remains at the top. </li>
+          <li> It seems like Java is a little better for this, in Python you use lists for the stacks. </li>
+        </ul>
+      </td>
+    </tr>
     
   </tbody>
 </table>
