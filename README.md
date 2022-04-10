@@ -25,7 +25,7 @@ Ex Table:
       <td> Stacks </td>
       <td>        
         <ul>
-          <li><a href = 'https://github.com/bew030/LeetCode/blob/main/Python/20-validparentheses-stack.py'>Python</a></li>
+
           <li><a>Java</a></li>
         </ul>
       </td>
@@ -35,7 +35,7 @@ Ex Table:
         </ul>
       </td>
     </tr>
-    
+
     
     
   </tbody>
