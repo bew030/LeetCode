@@ -7,10 +7,11 @@ To Do:
   <table>
     <thead>
       <tr>
-        <th>words</th>
-        <th>transform to</th>
-        <th>keepUpperCase is false</th>
-        <th>keepUpperCase is true</th>
+        <th>Number</th>
+        <th>Title</th>
+        <th>Category</th>
+        <th>Solution</th>
+        <th>Notes</th>
       </tr>
     </thead>
     <tbody>
@@ -19,12 +20,14 @@ To Do:
             <td>pascalCase</td>
             <td><code>XmlHttpRequest</code></td>
             <td><code>XMLHTTPRequest</code></td>
+            <td><code>XMLHTTPRequest</code></td>
         </tr>
         <tr>
             <td>"new customer ID"</td>
             <td>camelCase</td>
             <td><code>newCustomerId</code></td>
             <td><code>newCustomerID</code></td>
+            <td><code>XMLHTTPRequest</code></td>
         </tr>
     </tbody>
   </table>
