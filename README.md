@@ -6,7 +6,7 @@ To Do:
 
 Ex Table: 
 | #        | Title           | Categories  | Solutions | Notes |
-| ------------- |:-------------:| -----:|:-------------:| -----:|
+| ------------- |-------------| -----|-------------| -----|
 | col 3 is      | right-aligned | $1600 |right-aligned | $1600 |
 | col 2 is      | centered      |   $12 |right-aligned | $1600 |
 | zebra stripes | are neat      |    $1 |right-aligned | $1600 |
