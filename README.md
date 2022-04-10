@@ -12,12 +12,16 @@ Ex Table:
 <table>
   <tbody>
     <tr>
-      <th>Tables</th>
-      <th align="center">Are</th>
-      <th align="right">Cool</th>
+      <th> # </th>
+      <th align="center"> Title </th>
+      <th align="right"> Categories </th>
+      <th> Solutions </th>
+      <th> Notes </th>
     </tr>
     <tr>
       <td>col 3 is</td>
+      <td align="center">right-aligned</td>
+      <td align="right">$1600</td>
       <td align="center">right-aligned</td>
       <td align="right">$1600</td>
     </tr>
@@ -30,6 +34,8 @@ Ex Table:
       <td>zebra stripes</td>
       <td align="center">are neat</td>
       <td align="right">$1</td>
+      <td align="center">right-aligned</td>
+      <td align="right">$1600</td>
     </tr>
     <tr>
       <td>
