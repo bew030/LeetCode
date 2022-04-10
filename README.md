@@ -10,7 +10,7 @@ Ex Table:
 | 1     | Two Sum | Array, Hashtable |<ul><li>Python</li><li>Java</li></ul> |<ul><li>This is a note</li></ul>|
 
 <table>
-  <tbody>
+  <thead>
     <tr>
       <th> # </th>
       <th> Title </th>
@@ -18,7 +18,8 @@ Ex Table:
       <th> Solutions </th>
       <th> Notes </th>
     </tr>
-    
+  </thead>
+  <tbody>
     <tr>
       <td>20</td>
       <td>20</td>
