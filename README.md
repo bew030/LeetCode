@@ -49,7 +49,7 @@ To Do:
           </td>
         </tr>
         <tr>
-          <td>20</td>
+          <td>682</td>
           <td><a href="https://leetcode.com/problems/baseball-game/" target="_blank"> Baseball Game </a></td>
           <td> Stacks, Lists </td>
           <td>        
