@@ -45,7 +45,6 @@ To Do:
             <td>
               <ul>
                 <li> TL;DR: Use two stacks to implement the FIFO concept. Empty current queue into storage queue, add new item, and then pop the storage queue back into the current queue. That way the first item remains at the top. </li>
-                <li> It seems like Java is a little better for this, in Python you use lists for the stacks. </li>
               </ul>
             </td>
         </tr>
