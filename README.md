@@ -29,6 +29,8 @@ Ex Table:
       <td>col 2 is</td>
       <td align="center">centered</td>
       <td align="right">$12</td>
+      <td align="center">right-aligned</td>
+      <td align="right">$1600</td>
     </tr>
     <tr>
       <td>zebra stripes</td>
@@ -46,6 +48,8 @@ Ex Table:
       </td>
       <td align="center">See the list</td>
       <td align="right">from the first column</td>
+      <td align="center">right-aligned</td>
+      <td align="right">$1600</td>
     </tr>
   </tbody>
 </table>
