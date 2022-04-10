@@ -16,9 +16,9 @@ To Do:
     </thead>
     <tbody>
         <tr>
-            <td>"XML HTTP request"</td>
-            <td>pascalCase</td>
-            <td><code>XmlHttpRequest</code></td>
+            <td>20</td>
+            <td><a href="https://leetcode.com/problems/valid-parentheses/" target="_blank"> Valid Parentheses </a></td>
+            <td>Stacks</td>
             <td><code>XMLHTTPRequest</code></td>
             <td><code>XMLHTTPRequest</code></td>
         </tr>
