@@ -13,14 +13,14 @@ Ex Table:
   <tbody>
     <tr>
       <th> # </th>
-      <th align="center"> Title </th>
-      <th align="right"> Categories </th>
+      <th> Title </th>
+      <th> Categories </th>
       <th> Solutions </th>
       <th> Notes </th>
     </tr>
     <tr>
-      <td>col 3 is</td>
-      <td align="center">right-aligned</td>
+      <td>20</td>
+      <td align="center">right-alignfd</td>
       <td align="right">$1600</td>
       <td align="center">right-aligned</td>
       <td align="right">$1600</td>
