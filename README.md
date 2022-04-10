@@ -26,14 +26,11 @@ Ex Table:
       <td> Stacks </td>
       <td>        
         <ul>
-
           <li><a>Java</a></li>
         </ul>
       </td>
       <td>
-        <ul>
-          <li> TL;DR: Given a string of brackets, determine if it's valid (open bracket is closed by the same type of bracket and must be closed in the correct order). Using a stack you can push open brackets and pop closing brackets if it's the correct bracket. If the stack is empty, the closing bracket doesn't match, or the stack has brackets left over, it's not a valid string.</li>
-        </ul>
+        20
       </td>
     </tr>
     
