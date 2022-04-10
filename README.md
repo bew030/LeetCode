@@ -19,7 +19,10 @@ Ex Table:
       <th> Notes </th>
     </tr>
     
-
+    <tr>
+      <td>20</td>
+      <td><a href="https://leetcode.com/problems/valid-parentheses/" target="_blank"> Valid Parentheses </a></td>
+    </tr>
     
     
   </tbody>
