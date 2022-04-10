@@ -48,5 +48,22 @@ To Do:
             </ul>
           </td>
         </tr>
+        <tr>
+          <td>20</td>
+          <td><a href="https://leetcode.com/problems/baseball-game/" target="_blank"> Baseball Game </a></td>
+          <td> Stacks, Lists </td>
+          <td>        
+            <ul>
+              <li><a href = 'https://github.com/bew030/LeetCode/blob/main/Python/682-baseballgame-arraystack.py'>Python</a></li>
+              <li><a>Java</a></li>
+            </ul>
+          </td>
+          <td>
+            <ul>
+              <li> TL;DR: You're given a list of characters that represent a baseball game. If it's an integer, add it to the score. If it's '+', record a score that's the sum of the two previous scores. if it's a 'D', add double the previous score. If it's 'C', remove the previous score. You can do this using stacks or list manipulation, iterating through the list once. Once you've gotten a score list return the sum. </li>
+              <li> Remember to think about the negative number edge case next time (can't just use .isdigit() on a negative number) </li>
+            </ul>
+          </td>
+        </tr>
     </tbody>
   </table>
