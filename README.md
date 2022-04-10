@@ -26,6 +26,7 @@ Ex Table:
       <td> Stacks </td>
       <td>        
         <ul>
+          <li><a href="https://leetcode.com/problems/valid-parentheses/" target="_blank"> Valid Parentheses </a></li>
           <li><a>Java</a></li>
         </ul>
       </td>
