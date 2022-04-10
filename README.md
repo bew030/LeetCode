@@ -33,9 +33,9 @@ To Do:
         </tr>
       
         <tr>
-            <td>232</td>
-            <td><a href="https://leetcode.com/problems/implement-queue-using-stacks/" target="_blank"> Implement Qeueue using Stacks </a></td>
-            <td>Stacks, Queues</td>
+            <td>20</td>
+            <td><a href="https://leetcode.com/problems/valid-parentheses/" target="_blank"> Valid Parentheses </a></td>
+            <td>Stacks</td>
             <td>
               <ul>
                 <li><a href = 'https://github.com/bew030/LeetCode/blob/main/Python/20-validparentheses-stack.py'>Python</a></li>
