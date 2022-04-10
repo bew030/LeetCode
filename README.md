@@ -7,4 +7,4 @@ To Do:
 Ex Table: 
 | #        | Title           | Categories  | Solutions | Notes |
 | ------------- |-------------| -----|-------------| -----|
-| 1     | Two Sum | Array, Hashtable |<ul><li>Python</li><li>Java</li></ul> |<ul><li>This is a note</li>/ul>|
+| 1     | Two Sum | Array, Hashtable |<ul><li>Python</li><li>Java</li></ul> |<ul><li>This is a note</li></ul>|
