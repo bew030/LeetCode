@@ -101,3 +101,6 @@ To Do:
         </tr>
     </tbody>
   </table>
+  
+  Work on linked lists: 
+  <a href = 'https://leetcode.com/tag/linked-list/'>Linked Lists</a>
