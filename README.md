@@ -49,6 +49,23 @@ To Do:
           </td>
         </tr>
         <tr>
+          <td>289</td>
+          <td><a href="https://leetcode.com/problems/game-of-life/" target="_blank"> Game of Life </a></td>
+          <td> Array </td>
+          <td>        
+            <ul>
+              <li><a href = 'https://github.com/bew030/LeetCode/blob/main/Python/289-gameoflife-array.py'>Python</a></li>
+              <li><a>Java</a></li>
+            </ul>
+          </td>
+          <td>
+            <ul>
+              <li> TL;DR: You're given a board made of mxn cells that follow a few rules on whether the cell lives or dies (dependant on its neighbors). Return the next state of the board. </li>
+              <li> I did it by iterating through the board and creating a list of neighboring values. Then I counted the neighbors and modified it in a new array. After everything was done I remodified the original board. This was technically correct, but I should try re-implementing it where it changes the original board but adds in a few states as well (dead -> alive, alive -> dead, etc.) TRY REIMPLEMENTING IT THIS WAY. </li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
           <td>682</td>
           <td><a href="https://leetcode.com/problems/baseball-game/" target="_blank"> Baseball Game </a></td>
           <td> Stacks, Lists </td>
