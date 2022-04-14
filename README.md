@@ -50,6 +50,23 @@ To Do:
           </td>
         </tr>
         <tr>
+            <td>206</td>
+            <td><a href="https://leetcode.com/problems/reverse-linked-list/" target="_blank"> Reverse Linked List </a></td>
+            <td> Linked List </td>
+            <td>
+              <ul>
+                <li><a href = 'https://github.com/bew030/LeetCode/blob/main/Python/206-reverselinkedlist-linkedlist.py'>Python</a></li>
+                <li><a>Java</a></li>
+              </ul>
+            </td>
+            <td>
+              <ul>
+                <li> TL;DR: Given the head of a singly linked list, reverse the list, and return the reversed list.</li>
+                <li> I did it by having a pointer to the previous node, current node, and next node. I'd set the current node to the previous node, setting the previous node to the current node (which now has the current node and the previous nodes), setting the current node to the next node, and setting the next node to the next next node. View visual explanation <a href = ""> here </a>. </li>
+              </ul>
+            </td>
+        </tr>
+        <tr>
           <td>232</td>
           <td><a href="https://leetcode.com/problems/implement-queue-using-stacks/" target="_blank"> Implement Qeueue using Stacks </a></td>
           <td> Stacks, Queues </td>
