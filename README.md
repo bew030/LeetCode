@@ -135,6 +135,23 @@ To Do:
           </td>
         </tr>
         <tr>
+          <td>876</td>
+          <td><a href="https://leetcode.com/problems/middle-of-the-linked-list/" target="_blank"> Middle of the Linked List </a></td>
+          <td> Linked List, Two Pointers </td>
+          <td>        
+            <ul>
+              <li><a href = 'https://github.com/bew030/LeetCode/blob/main/Python/876-middleoflinkedlist-linkedlisttwopointer.py'>Python</a></li>
+              <li><a>Java</a></li>
+            </ul>
+          </td>
+          <td>
+            <ul>
+              <li> TL;DR: Given the head of a singly linked list, return the middle node of the linked list. If there are two middle nodes, return the second middle node. </li>
+              <li> Initially I did it the naive way where I just counted the length, then reitterated through the linked list and return the node at length//2. A better solution would be to just store each node into an array and return array[len(array)//2], saving on run time. An even better way would be to implement fast/slow pointers and return the slow pointer whenever the fast pointer reached the end (assuming the fast pointer is twice as fast).  </li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
           <td>1260</td>
           <td><a href="https://leetcode.com/problems/shift-2d-grid/" target="_blank"> Shift 2D Grid </a></td>
           <td> Arrays </td>
