@@ -62,7 +62,7 @@ To Do:
             <td>
               <ul>
                 <li> TL;DR: Given the head of a singly linked list, reverse the list, and return the reversed list.</li>
-                <li> I did it by having a pointer to the previous node, current node, and next node. I'd set the current node to the previous node, setting the previous node to the current node (which now has the current node and the previous nodes), setting the current node to the next node, and setting the next node to the next next node. View visual explanation <a href = ""> here </a>. </li>
+                <li> I did it by having a pointer to the previous node, current node, and next node. I'd set the current node to the previous node, setting the previous node to the current node (which now has the current node and the previous nodes), setting the current node to the next node, and setting the next node to the next next node. View visual explanation <a href = "https://github.com/bew030/LeetCode/blob/main/image%20references/IMG_BC503F233A2F-1.jpeg"> here</a>. </li>
               </ul>
             </td>
         </tr>
