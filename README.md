@@ -84,6 +84,23 @@ To Do:
           </td>
         </tr>
         <tr>
+          <td>237</td>
+          <td><a href="https://leetcode.com/problems/delete-node-in-a-linked-list/" target="_blank"> Delete Node in a Linked List </a></td>
+          <td> Linked List </td>
+          <td>        
+            <ul>
+              <li><a href = 'https://github.com/bew030/LeetCode/blob/main/Python/237-deletenodeinlinkedlist-linkedlist.py'>Python</a></li>
+              <li><a>Java</a></li>
+            </ul>
+          </td>
+          <td>
+            <ul>
+              <li> TL;DR: Write a function to delete a node in a singly-linked list. You will not be given access to the head of the list, instead you will be given access to the node to be deleted directly. </li>
+              <li> I basically just changed the nodes value and nodes next variable. I did it by setting node.val to node.next.val and then node.next to node.next.next, effectively 'deleting' (or better described as setting it as the next node) the node. </li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
           <td>289</td>
           <td><a href="https://leetcode.com/problems/game-of-life/" target="_blank"> Game of Life </a></td>
           <td> Array </td>
