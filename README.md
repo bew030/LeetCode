@@ -32,6 +32,24 @@ To Do:
             </td>
         </tr>
         <tr>
+          <td>59</td>
+          <td><a href="https://leetcode.com/problems/spiral-matrix-ii/" target="_blank"> Spiral Matrtix II </a></td>
+          <td> Arrays </td>
+          <td>        
+            <ul>
+              <li><a href = 'https://github.com/bew030/LeetCode/blob/main/Python/59-spiralmatrix2-array.py'>Python</a></li>
+              <li><a>Java</a></li>
+            </ul>
+          </td>
+          <td>
+            <ul>
+              <li> TL;DR: Given an integer n, generate an n x n matrix filled with elements from 1 to n^2 in spiral order. </li>
+              <li> Pretty challenging but fun problem; I essentially made a ruleset for each direction and slowly modified it. I noticed there
+              were patterns for how many times the row/column would get iterated and built a few while/for loops around it. </li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
           <td>232</td>
           <td><a href="https://leetcode.com/problems/implement-queue-using-stacks/" target="_blank"> Implement Qeueue using Stacks </a></td>
           <td> Stacks, Queues </td>
@@ -129,7 +147,7 @@ To Do:
           <td>
             <ul>
               <li> TL;DR: You're given a linked list. Keep the first m nodes and remove the next n nodes; keep on doing that until you reach the end of the list. </li>
-              <li> You really need to work on iterating through linked lists. Try to understand specifically what the variable is referencing (is it making a copy or is it referencing?) I think your logic is there but your references are fuzzy. REWORK THIS. </li>
+              <li> You really need to work on iterating through linked lists. Try to understand specifically what the variable is referencing (is it making a copy or is it referencing?) I think your logic is there but your references are fuzzy. REWORK THIS. EDIT: It makes more sense now, sometimes you're making a hard copy of the reference. </li>
             </ul>
           </td>
         </tr>
