@@ -32,6 +32,22 @@ To Do:
             </td>
         </tr>
         <tr>
+            <td>35</td>
+            <td><a href="https://leetcode.com/problems/search-insert-position/" target="_blank"> Search Insert Position </a></td>
+            <td> Binary Search</td>
+            <td>
+              <ul>
+                <li><a href = 'https://github.com/bew030/LeetCode/blob/main/Python/35-searchinsertposition-binarysearch.py'>Python</a></li>
+                <li><a>Java</a></li>
+              </ul>
+            </td>
+            <td>
+              <ul>
+                <li> TL;DR: </li>
+              </ul>
+            </td>
+        </tr>
+        <tr>
           <td>59</td>
           <td><a href="https://leetcode.com/problems/spiral-matrix-ii/" target="_blank"> Spiral Matrtix II </a></td>
           <td> Arrays </td>
