@@ -275,3 +275,6 @@ To Do:
   
   Work on linked lists: 
   <a href = 'https://leetcode.com/tag/linked-list/'>Linked Lists</a>
+  
+  Word on Binary Search: 
+  <a href = 'https://leetcode.com/tag/binary-search/'>Binary Search</a>
