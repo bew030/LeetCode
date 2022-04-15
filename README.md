@@ -43,7 +43,8 @@ To Do:
             </td>
             <td>
               <ul>
-                <li> TL;DR: </li>
+                <li> TL;DR: Given a sorted array of distinct integers and a target value, return the index if the target is found. If not, return the index where it would be if it were inserted in order. </li>
+                <li> Very similar to the binary search problem. I also added rules if there wasn't an exact match found; if target is larger than left/right, then return left + 1. Else, return left (since the target is located on the index you left off on).
               </ul>
             </td>
         </tr>
@@ -113,6 +114,23 @@ To Do:
             <ul>
               <li> TL;DR: Write a function to delete a node in a singly-linked list. You will not be given access to the head of the list, instead you will be given access to the node to be deleted directly. </li>
               <li> I basically just changed the nodes value and nodes next variable. I did it by setting node.val to node.next.val and then node.next to node.next.next, effectively 'deleting' (or better described as setting it as the next node) the node. </li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>278</td>
+          <td><a href="https://leetcode.com/problems/first-bad-version/" target="_blank"> First Bad Version </a></td>
+          <td> Binary Search </td>
+          <td>        
+            <ul>
+              <li><a href = 'https://github.com/bew030/LeetCode/blob/main/Python/278-firstbadversion-binarysearch.py'>Python</a></li>
+              <li><a>Java</a></li>
+            </ul>
+          </td>
+          <td>
+            <ul>
+              <li> TL;DR: You're given a bunch of versions of a product and you have to find out when the first version is that went bad. If the version went bad, all following versions are bad. </li>
+              <li> Use a binary search; if you check the middle and the version is good, then you have to look at future versions, so you set left to midpt + 1. If version is bad you have to check previous versions so you set right to midpt (its not midpt - 1 since the midpt might be the first time you got a bad version). Return when left and right are the same value, signifying the first bad version. </li>
             </ul>
           </td>
         </tr>
