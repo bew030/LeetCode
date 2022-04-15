@@ -169,6 +169,23 @@ To Do:
           </td>
         </tr>
         <tr>
+          <td>704</td>
+          <td><a href="https://leetcode.com/problems/binary-search/" target="_blank"> Binary Search </a></td>
+          <td> Binary Search </td>
+          <td>        
+            <ul>
+              <li><a href = 'https://github.com/bew030/LeetCode/blob/main/Python/704-binarysearch-binarysearch.py'>Python</a></li>
+              <li><a>Java</a></li>
+            </ul>
+          </td>
+          <td>
+            <ul>
+              <li> TL;DR: Given an array of integers nums which is sorted in ascending order, and an integer target, write a function to search target in nums. If target exists, then return its index. Otherwise, return -1. </li>
+              <li> Implement left as 0 and right as len(nums) - 1. If midpt (which is left + (right - left)//2) is less than target, then target is potentially on the right side, so you shift left to midpt + 1. If target is more than target, target is potentially on the left side, so you shift right to midpt - 1. Keep on going until either midpt is target or until left !< right. If midpt doesnt equal target, return -1. </li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
           <td>876</td>
           <td><a href="https://leetcode.com/problems/middle-of-the-linked-list/" target="_blank"> Middle of the Linked List </a></td>
           <td> Linked List, Two Pointers </td>
