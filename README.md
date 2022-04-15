@@ -203,6 +203,23 @@ To Do:
           </td>
         </tr>
         <tr>
+          <td>1213</td>
+          <td><a href="https://leetcode.com/problems/intersection-of-three-sorted-arrays/" target="_blank"> CIntersection of Three Sorted Arrays </a></td>
+          <td> Array, Binary Search</td>
+          <td>        
+            <ul>
+              <li><a href = 'https://github.com/bew030/LeetCode/blob/main/Python/1213-intersectionofthreesortedarrays.py'>Python</a></li>
+              <li><a>Java</a></li>
+            </ul>
+          </td>
+          <td>
+            <ul>
+              <li> TL;DR: Given three integer arrays arr1, arr2 and arr3 sorted in strictly increasing order, return a sorted array of only the integers that appeared in all three arrays. </li>
+              <li> Two ways to do this: 1) convert all the arrays to sets, use set unions, and return a sorted list 2) use 3 pointers, iterate through the arrays if the value at the pointer is the minimum out of the 3 arrays, append to a return list if values at all 3 pointers are the same, stop when any of the pointers reach the end of their respective array, return return list. </li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
           <td>1260</td>
           <td><a href="https://leetcode.com/problems/shift-2d-grid/" target="_blank"> Shift 2D Grid </a></td>
           <td> Arrays </td>
