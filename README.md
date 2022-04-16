@@ -67,6 +67,30 @@ To Do:
           </td>
         </tr>
         <tr>
+            <td>160</td>
+            <td><a href="https://leetcode.com/problems/intersection-of-two-linked-lists/" target="_blank"> Intersection of Two Linked List </a></td>
+            <td> Linked List </td>
+            <td>
+              <ul>
+                <li><a href = 'https://github.com/bew030/LeetCode/blob/main/Python/160-intersectionoftwolinkedlists-linkedlists.py'>Python</a></li>
+                <li><a>Java</a></li>
+              </ul>
+            </td>
+            <td>
+              <ul>
+                <li> TL;DR: Given the heads of two singly linked-lists headA and headB, return the node at which the two lists intersect. If the two linked lists have no intersection at all, return null.</li>
+                <li> I implemented two solutions.<b>Solution 1:</b>calculate length of both lists, find minimum length, shorten the longest list to the
+                  minimum length (keeping the LAST n nodes where n is the minimum), then loop through the unshortened list and shortened list and 
+                  see if they're equal. If they both reach the end and are NOT equal, return None. This is built on the premise that if there are
+                  duplicates then it must be near the end and is at most n nodes where n is the shorter length. <b> Solution 2: </b>  Iterate 
+                  through the first list and add each node in a set. Then iterate through the second list and check if the node is in the set. If you 
+                  iterate through the entire second list and don't see any nodes, return None. There's also a 3rd solution which measures both the 
+                  longer list and shorter lisdt and redirects the shorter list to the longer list, stepping through the list at the same time. I didn't
+                  understand it, BUT YOU SHOULD TRY TO UNDERSTAND IT. </li>
+              </ul>
+            </td>
+        </tr>
+        <tr>
             <td>206</td>
             <td><a href="https://leetcode.com/problems/reverse-linked-list/" target="_blank"> Reverse Linked List </a></td>
             <td> Linked List </td>
