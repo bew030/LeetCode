@@ -79,10 +79,10 @@ To Do:
             <td>
               <ul>
                 <li> TL;DR: Given the heads of two singly linked-lists headA and headB, return the node at which the two lists intersect. If the two linked lists have no intersection at all, return null.</li>
-                <li> I implemented two solutions.<b>Solution 1:</b>calculate length of both lists, find minimum length, shorten the longest list to the
+                <li> I implemented two solutions. <b>Solution 1:</b> calculate length of both lists, find minimum length, shorten the longest list to the
                   minimum length (keeping the LAST n nodes where n is the minimum), then loop through the unshortened list and shortened list and 
                   see if they're equal. If they both reach the end and are NOT equal, return None. This is built on the premise that if there are
-                  duplicates then it must be near the end and is at most n nodes where n is the shorter length. <b> Solution 2: </b>  Iterate 
+                  duplicates then it must be near the end and is at most n nodes where n is the shorter length. <b> Solution 2: </b> Iterate 
                   through the first list and add each node in a set. Then iterate through the second list and check if the node is in the set. If you 
                   iterate through the entire second list and don't see any nodes, return None. There's also a 3rd solution which measures both the 
                   longer list and shorter lisdt and redirects the shorter list to the longer list, stepping through the list at the same time. I didn't
