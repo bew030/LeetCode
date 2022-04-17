@@ -84,6 +84,23 @@ To Do:
           </td>
         </tr>
         <tr>
+          <td>83</td>
+          <td><a href="https://leetcode.com/problems/remove-duplicates-from-sorted-list/" target="_blank"> Remove Duplicates from Sorted List </a></td>
+          <td> Arrays </td>
+          <td>        
+            <ul>
+              <li><a href = '83-removeduplicatesfromsortedlist-linkedlist.py'>Python</a></li>
+              <li><a>Java</a></li>
+            </ul>
+          </td>
+          <td>
+            <ul>
+              <li> TL;DR: Given the head of a sorted linked list, delete all duplicates such that each element appears only once. Return the linked list sorted as well. </li>
+              <li> You're getting better at linked list problems. Used the knowledge from keep m remove n in a linked list. I set an iterator to head.next and last_non_duplicate to head. While the iterator isn't none, I check to see if the iterator.val is equal to last_non_duplicate,val. If it is, then I continue iterating iterator (iterator = iterator.next); if iterator.next is None, then I set last_non_duplicate.next to None. If it isn't equal, then I set last_non_duplicate.next to the iterator, then reset last_non_duplicate to the iterator, and continue on iterating. In doing so I ensure last_non_duplicate is always a little behind iterator and is always pointing to a unique node, setting the unique nodes next node to the next unique node. </li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
             <td>160</td>
             <td><a href="https://leetcode.com/problems/intersection-of-two-linked-lists/" target="_blank"> Intersection of Two Linked List </a></td>
             <td> Linked List </td>
