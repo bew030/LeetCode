@@ -311,6 +311,23 @@ To Do:
             </ul>
           </td>
         </tr>
+        <tr>
+          <td>2089</td>
+          <td><a href="https://leetcode.com/problems/find-target-indices-after-sorting-array/" target="_blank"> Find Target Indices After Sorting Array </a></td>
+          <td> Binary Search </td>
+          <td>        
+            <ul>
+              <li><a href = 'https://github.com/bew030/LeetCode/blob/main/Python/2089-findtargetindicesaftersortingarray-arraybinarysearch.py'>Python</a></li>
+              <li><a>Java</a></li>
+            </ul>
+          </td>
+          <td>
+            <ul>
+              <li> TL;DR: Given a list, sort it and return a list of the indices of the list where the number at the indices equal a target number. </li>
+              <li> Sorted by the default sort() method and then iterated through the list until either the target is found or the item at indice i is greater than target, in which case the iteration stops. IMPLEMENT IT USING BINARY SEARCH; should be faster. What do you do if it hit the target? Then you have to try both left or right? Try to figure it out. </li>
+            </ul>
+          </td>
+        </tr>
     </tbody>
   </table>
   
