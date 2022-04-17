@@ -32,6 +32,23 @@ To Do:
             </td>
         </tr>
         <tr>
+            <td>21</td>
+            <td><a href="https://leetcode.com/problems/merge-two-sorted-lists/" target="_blank"> Merge Two Sorted Lists </a></td>
+            <td> Linked Lists </td>
+            <td>
+              <ul>
+                <li><a href = 'https://github.com/bew030/LeetCode/blob/main/Python/21-mergetwosortedlists-linkedlist.py'>Python</a></li>
+                <li><a>Java</a></li>
+              </ul>
+            </td>
+            <td>
+              <ul>
+                <li> TL;DR: Given the heads of two sorted linked lists list1 and list2, merge the two lists into one sorted list. </li>
+                <li> Did really well this time! Created a third list and p3. Iterated through p1 and p2, setting p3.val to the lower val, creating a new node, setting p3.next to the new node, and then setting p3 to p3.next, we were able to ensure that p3 was always pointing to the end of the third list. </li>
+              </ul>
+            </td>
+        </tr>
+        <tr>
             <td>35</td>
             <td><a href="https://leetcode.com/problems/search-insert-position/" target="_blank"> Search Insert Position </a></td>
             <td> Binary Search</td>
@@ -44,7 +61,7 @@ To Do:
             <td>
               <ul>
                 <li> TL;DR: Given a sorted array of distinct integers and a target value, return the index if the target is found. If not, return the index where it would be if it were inserted in order. </li>
-                <li> Very similar to the binary search problem. I also added rules if there wasn't an exact match found; if target is larger than left/right, then return left + 1. Else, return left (since the target is located on the index you left off on).
+                <li> Very similar to the binary search problem. I also added rules if there wasn't an exact match found; if target is larger than left/right, then return left + 1. Else, return left (since the target is located on the index you left off on). </li>
               </ul>
             </td>
         </tr>
