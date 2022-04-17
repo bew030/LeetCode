@@ -295,6 +295,23 @@ To Do:
           </td>
         </tr>
         <tr>
+          <td>1351</td>
+          <td><a href="https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/" target="_blank"> Count Negative Numbers in a Sorted Matrix </a></td>
+          <td> Binary Search </td>
+          <td>        
+            <ul>
+              <li><a href = 'https://github.com/bew030/LeetCode/blob/main/Python/1351-countnegativenumbersinsortedarray-binarysearch.py'>Python</a></li>
+              <li><a>Java</a></li>
+            </ul>
+          </td>
+          <td>
+            <ul>
+              <li> TL;DR: Given a m x n matrix grid which is sorted in non-increasing order both row-wise and column-wise, return the number of negative numbers in grid. </li>
+              <li> Implemented both list iteration and binary search which worked really well. If you check the bottom right number, if it's not negative, there will be no negative numbers (since that value is the lowest in the array). Knowing that, I do a list iteration from the last row and move up; in each row, I then use a binary search to find out how many negative items are in a row. If the middle item is a negative value, everything to the right of it is negative, so you can set the right to be the left of the middle. Otherwise, set the left to the right of the middle (to get the right half). I continue doing these binary searches for each row until the last value of the row isn't a negative number, in which case I stop.  </li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
           <td>1474</td>
           <td><a href="https://leetcode.com/problems/delete-n-nodes-after-m-nodes-of-a-linked-list/" target="_blank"> Delete N Nodes after M Nodes of a Linked List </a></td>
           <td> Linked Lists </td>
