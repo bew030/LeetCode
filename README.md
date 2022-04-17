@@ -89,7 +89,7 @@ To Do:
           <td> Arrays </td>
           <td>        
             <ul>
-              <li><a href = '83-removeduplicatesfromsortedlist-linkedlist.py'>Python</a></li>
+              <li><a href = 'https://github.com/bew030/LeetCode/blob/main/Python/83-removeduplicatesfromsortedlist-linkedlist.py'>Python</a></li>
               <li><a>Java</a></li>
             </ul>
           </td>
