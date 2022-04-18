@@ -312,6 +312,23 @@ To Do:
           </td>
         </tr>
         <tr>
+          <td>977</td>
+          <td><a href="https://leetcode.com/problems/squares-of-a-sorted-array/" target="_blank"> Middle of the Linked List </a></td>
+          <td> Linked List, Two Pointers </td>
+          <td>        
+            <ul>
+              <li><a href = 'https://github.com/bew030/LeetCode/blob/main/Python/977-squaresofsortedarray-twopointer.py'>Python</a></li>
+              <li><a>Java</a></li>
+            </ul>
+          </td>
+          <td>
+            <ul>
+              <li> TL;DR: Given an integer array nums sorted in non-decreasing order, return an array of the squares of each number sorted in non-decreasing order. </li>
+              <li> Easy solution: square each number using list comprehension and then sort using built in list sort method. Better solution: you're comparing negative squares and positive squares, and technically the negative side is organized descending while the positive numbers are organized ascending. You can now create a left pointer and right pointer and instead build the list from greatest to smallest (since you know nums[0] or nums[-1] will be the largest value). What I do is compare the absolute value of the left number and the right value; if the abs of the left is less than the abs of the right, I select the right value, square it, add it to the end of the list, and then decrease the right index. If it's not then I select the left value, square it, add it to the end of the list, and increase the left value. I do this for the entirety of the array and return the list, thus leading to a time and space complexity of O(N)  </li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
           <td>1213</td>
           <td><a href="https://leetcode.com/problems/intersection-of-three-sorted-arrays/" target="_blank"> CIntersection of Three Sorted Arrays </a></td>
           <td> Array, Binary Search</td>
