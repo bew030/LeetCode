@@ -142,6 +142,23 @@ To Do:
             </td>
         </tr>
         <tr>
+            <td>189</td>
+            <td><a href="https://leetcode.com/problems/rotate-array/" target="_blank"> Rotate Array </a></td>
+            <td>Stacks</td>
+            <td>
+              <ul>
+                <li><a href = '189-rotatearray-twopointer.pyy'>Python</a></li>
+                <li><a>Java</a></li>
+              </ul>
+            </td>
+            <td>
+              <ul>
+                <li> TL;DR: Given an array, rotate the array to the right by k steps, where k is non-negative. </li>
+                <li> I made 2 solutions. 1) make a copy of the list, iterate through the list, calculate the future index (i + k)%len(nums) and then set the value accordingly. You need the copy as a reference. 2) figure out the 'beginning' of the new array (which is the last k digits of the array) and the 'end' of the new array (which is the first len(n)-k digits of the array). Then create a new result array (beginning + end) and set the original array to this new result array. </li>
+              </ul>
+            </td>
+        </tr>
+        <tr>
             <td>206</td>
             <td><a href="https://leetcode.com/problems/reverse-linked-list/" target="_blank"> Reverse Linked List </a></td>
             <td> Linked List </td>
