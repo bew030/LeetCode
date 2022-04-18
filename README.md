@@ -210,6 +210,23 @@ To Do:
           </td>
         </tr>
         <tr>
+            <td>283</td>
+            <td><a href="https://leetcode.com/problems/move-zeroes/" target="_blank"> Move Zeroes </a></td>
+            <td> Linked List </td>
+            <td>
+              <ul>
+                <li><a href = 'https://github.com/bew030/LeetCode/blob/main/Python/283-movezeroes-twopointers.py'>Python</a></li>
+                <li><a>Java</a></li>
+              </ul>
+            </td>
+            <td>
+              <ul>
+                <li> TL;DR: Given an integer array nums, move all 0's to the end of it while maintaining the relative order of the non-zero elements. Do it in place. </li>
+                <li> I had a pointer pointing at the last_nonzero_index (which started off at -1). It then iterates through the array; if a number isn't 0, then I switch it with the number at the last nonzero index (the number should be zero) and increase the last_nonzero_index by 1 (so I know where to add the next non zero number). </li>
+              </ul>
+            </td>
+        </tr>
+        <tr>
           <td>289</td>
           <td><a href="https://leetcode.com/problems/game-of-life/" target="_blank"> Game of Life </a></td>
           <td> Array </td>
