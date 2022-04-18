@@ -125,6 +125,23 @@ To Do:
             </td>
         </tr>
         <tr>
+            <td>167</td>
+            <td><a href="https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/" target="_blank"> Two Sum II - Input Array Is Sorted </a></td>
+            <td>Stacks</td>
+            <td>
+              <ul>
+                <li><a href = 'https://github.com/bew030/LeetCode/blob/main/Python/167-twosum2sortedarray-twopointers.py'>Python</a></li>
+                <li><a>Java</a></li>
+              </ul>
+            </td>
+            <td>
+              <ul>
+                <li> TL;DR: Given a 1-indexed array that's sorted in increasing order, find two numbers that add up to a specific target number. There's always exactly one solution. </li>
+                <li> I made a pointer to the left of the array and right of the array. Then, while numbers[left] + numbers[right] doesn't equal the target, I check if the sum is less or more than the target. If it's less than the target, I increase left index, otherwise I decrease the right index. I keep on doing this until I find the indices of the numbers that add up to the target and return left + 1, right + 1. </li>
+              </ul>
+            </td>
+        </tr>
+        <tr>
             <td>206</td>
             <td><a href="https://leetcode.com/problems/reverse-linked-list/" target="_blank"> Reverse Linked List </a></td>
             <td> Linked List </td>
