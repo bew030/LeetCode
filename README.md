@@ -18,7 +18,7 @@ To Do:
         <tr>
             <td>19</td>
             <td><a href="Remove Nth Node From End of List" target="_blank"> Remove Nth node from the end of a linked list </a></td>
-            <td>Stacks</td>
+            <td> Linked Lists, Two Pointers </td>
             <td>
               <ul>
                 <li><a href = 'https://github.com/bew030/LeetCode/blob/main/Python/19-removenthnodefromend-linkedlisttwopointers.py'>Python</a></li>
@@ -277,6 +277,40 @@ To Do:
             </ul>
           </td>
         </tr>
+      <tr>
+          <td>344</td>
+          <td><a href="https://leetcode.com/problems/reverse-string/" target="_blank"> Reverse String </a></td>
+          <td> Strings </td>
+          <td>        
+            <ul>
+              <li><a href = 'https://github.com/bew030/LeetCode/blob/main/Python/344-reversestring-string.py'>Python</a></li>
+              <li><a>Java</a></li>
+            </ul>
+          </td>
+          <td>
+            <ul>
+              <li> TL;DR: Write a function that reverses a string. The input string is given as an array of characters s. You must do this by modifying the input array in-place with O(1) extra memory. </li>
+              <li> I set two pointers, one pointing to the beginning of the string and one to the end of the string. While the left is less than the right, I switch the two characters around and then iterate left up by one and right down by one. Doing so successfully reverses the string. </li>
+            </ul>
+          </td>
+        </tr>
+      <tr>
+          <td>557</td>
+          <td><a href="https://leetcode.com/problems/reverse-words-in-a-string-iii/" target="_blank"> Reverse Words in String 3 </a></td>
+          <td> Strings </td>
+          <td>        
+            <ul>
+              <li><a href = 'https://github.com/bew030/LeetCode/blob/main/Python/557-reversewordsinstring3-string.py'>Python</a></li>
+              <li><a>Java</a></li>
+            </ul>
+          </td>
+          <td>
+            <ul>
+              <li> TL;DR: Given a string s, reverse the order of characters in each word within a sentence while still preserving whitespace and initial word order. </li>
+              <li> I split the string up by whitespaces using .split(), then reversed each word in the list using list comprehension ([::-1]), then joined the list with the .join method (' '.join(reversed_words_list)). </li>
+            </ul>
+          </td>
+        </tr>
         <tr>
           <td>682</td>
           <td><a href="https://leetcode.com/problems/baseball-game/" target="_blank"> Baseball Game </a></td>
@@ -325,6 +359,7 @@ To Do:
             <ul>
               <li> TL;DR: Given the head of a singly linked list, return the middle node of the linked list. If there are two middle nodes, return the second middle node. </li>
               <li> Initially I did it the naive way where I just counted the length, then reitterated through the linked list and return the node at length//2. A better solution would be to just store each node into an array and return array[len(array)//2], saving on run time. An even better way would be to implement fast/slow pointers and return the slow pointer whenever the fast pointer reached the end (assuming the fast pointer is twice as fast).  </li>
+              <li> 2nd attempt update: was able to successfully do the two pointer method. Note that the faster pointer is continuing until it is either the last node or past the last node; therefore the while loop should be 'while fast_pointer and fast_pointer.next:' </li>
             </ul>
           </td>
         </tr>
