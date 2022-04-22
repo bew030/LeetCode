@@ -12,22 +12,14 @@ class Solution:
         
         return array_rep[len(array_rep)//2]
         
-        '''
-        node_iterator = head 
-        length_list = 0
-        while node_iterator != None: 
-            length_list += 1 
-            node_iterator = node_iterator.next
-        # middle = length_list//2
+'''
+class Solution:
+    def middleNode(self, head: Optional[ListNode]) -> Optional[ListNode]:
+        slow_pointer = head 
+        fast_pointer = head
         
-        mid_pt = length_list//2
-        
-        node_iterator = head 
-        iterator = 0 
-        
-        while node_iterator != None: 
-            if iterator == mid_pt: 
-                return node_iterator
-            node_iterator = node_iterator.next
-            iterator += 1 
-        '''
+        while fast_pointer and fast_pointer.next: # made it to the last node OR past the last node 
+            slow_pointer = slow_pointer.next
+            fast_pointer = fast_pointer.next.next
+        return slow_pointer
+'''
