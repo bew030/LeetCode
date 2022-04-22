@@ -16,6 +16,23 @@ To Do:
     </thead>
     <tbody>
         <tr>
+            <td>19</td>
+            <td><a href="Remove Nth Node From End of List" target="_blank"> Remove Nth node from the end of a linked list </a></td>
+            <td>Stacks</td>
+            <td>
+              <ul>
+                <li><a href = 'https://github.com/bew030/LeetCode/blob/main/Python/19-removenthnodefromend-linkedlisttwopointers.py'>Python</a></li>
+                <li><a>Java</a></li>
+              </ul>
+            </td>
+            <td>
+              <ul>
+                <li> TL;DR: Given the head of a linked list, remove the nth node from the end of the list and return its head. </li>
+                <li> I accomplished this with 4 pointers; 1 iterator pointer, 1 nth Node pointer, 1 before nth node pointer, and 1 after nth node pointer. My logic was that I'd follow along the iterator until it reached the end of the linked list. When the iterator reaches the nth node in the linked list, it'll set the nth node pointer to the beginning of the linked list (so the nth node pointer is always n nodes away from the current end, which is what the iterator is pointing at). before nth node and after nth node pointer are both set accordingly. Once the iterator reaches the end, I set the before nth nodes next value to after nth node which succesfully deletes the nth node. I also made some specific rules for when the nth node is the first item in the linked list. </li>
+              </ul>
+            </td>
+        </tr>
+        <tr>
             <td>20</td>
             <td><a href="https://leetcode.com/problems/valid-parentheses/" target="_blank"> Valid Parentheses </a></td>
             <td>Stacks</td>
